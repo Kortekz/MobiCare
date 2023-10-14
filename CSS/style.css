@@ -1,0 +1,64 @@
+body {
+    background-image: url(/assests/poly2.jpg);
+    background-size: 80%;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: -5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header img {
+    margin-right: 20px;
+    margin-left: 10px; 
+}
+
+nav {
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 50px;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav span {
+    color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 280px; /* Adjust the top value to lower or raise the images */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+img {
+    width: 20%;
+    margin: 20px; /* Adjust the margin between images */
+}
+
+img:hover {
+    filter: brightness(60%);
+    transition: filter 0.3s ease;
+}
